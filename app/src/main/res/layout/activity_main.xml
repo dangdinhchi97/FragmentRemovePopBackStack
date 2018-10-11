@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/btnadda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="AddA"
+        android:text="Add A"
+         />
+
+    <Button
+        android:id="@+id/btnaddb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="AddB"
+        android:text="Add B"
+         />
+
+    <Button
+        android:id="@+id/btnaddc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="AddC"
+        android:text="Add C"
+        />
+
+    <Button
+        android:id="@+id/btntop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Back"
+        android:text="Back"
+       />
+</LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/removea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="RemoveA"
+        android:text="Remove A"
+        />
+
+    <Button
+        android:id="@+id/removeb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:onClick="RemoveB"
+        android:text="RemoveB"
+        />
+
+    <Button
+        android:id="@+id/removec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="RemoveC"
+        android:text="Remove c"
+        />
+
+    <Button
+        android:id="@+id/bopa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="PopA"
+        android:text="Pop a"
+       />
+</LinearLayout>
+
+    <FrameLayout
+
+        android:id="@+id/framcontent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+    </FrameLayout>
+</LinearLayout>
